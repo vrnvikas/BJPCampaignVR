@@ -38,17 +38,13 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 break;
 
         }
-
     }
 
     private void startBjpVR() {
-
         Intent i = new Intent(Intent.ACTION_MAIN);
         i.addCategory(Intent.CATEGORY_LAUNCHER);
         i.setPackage("com.smis.bjpvr");
         startActivity(i);
-
-
     }
 
     private void startBjpAR() {
